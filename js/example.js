@@ -32,8 +32,8 @@
         mesh.rotation.x += 0.01;
         mesh.rotation.y += 0.02;
 
+        THREEx.WindowResize(renderer, camera);
         renderer.render( scene, camera );
-
     }
 
 })();

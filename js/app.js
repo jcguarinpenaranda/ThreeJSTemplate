@@ -26,6 +26,7 @@
 
         //your code here...
 
+		THREEx.WindowResize(renderer, camera);
         renderer.render( scene, camera );
     }
 
